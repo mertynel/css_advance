@@ -10,6 +10,8 @@ Dark green: #28b485
 $color-primary: #7ed56f;
 $color-primary-light: #55c57a;
 $color-primary-dark: #28b485;
+$color-white: #fff;
+$color-grey: #777;
 
 *,
 *::after,
@@ -28,7 +30,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
-    color: #777;
+    color:$color-grey;
     padding: 3rem;
     box-sizing: border-box;
 }
@@ -64,7 +66,7 @@ body {
 }
 
 .heading-primary {
-    color: #fff;
+    color: $color-white;
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 6rem;
