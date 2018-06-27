@@ -23,6 +23,15 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
 
+.u-margin-top-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-top-big {
+  margin-bottom: 8rem; }
+
+.u-margin-top-small {
+  margin-bottom: 1.5rem; }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -141,6 +150,12 @@ body {
   color: #777; }
   .btn--white::after {
     background-color: white; }
+
+.btn--green {
+  background-color: #7ed56f;
+  color: #fff; }
+  .btn--green::after {
+    background-color: #7ed56f; }
 
 .btn::after {
   content: "";
