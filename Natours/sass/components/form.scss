@@ -1,0 +1,27 @@
+@import "../abstracts/_variables";
+
+.form {
+
+    &__group:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    &__input {
+        padding: 1.5rem 2rem;
+        font-family: inherit;
+        font-size: 1.5rem;
+        border-radius: 2px;
+        background-color: rgba($color-white, .5);
+        border: none;
+
+    }
+    
+    &__input:focus {
+        outline: none;
+    }
+
+    &__label {
+
+    }
+
+}
