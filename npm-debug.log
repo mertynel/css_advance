@@ -1,12 +1,12 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'compile:scss' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'compile:sass' ]
 2 info using npm@3.5.2
 3 info using node@v8.10.0
 4 verbose config Skipping project config: /home/martynas/.npmrc. (matches userconfig)
 5 verbose stack Error: ENOENT: no such file or directory, open '/home/martynas/package.json'
 6 verbose cwd /home/martynas/Documents/Udemy/css_advance
 7 error Linux 4.15.0-24-generic
-8 error argv "/usr/bin/node" "/usr/bin/npm" "run" "compile:scss"
+8 error argv "/usr/bin/node" "/usr/bin/npm" "run" "compile:sass"
 9 error node v8.10.0
 10 error npm  v3.5.2
 11 error path /home/martynas/package.json
