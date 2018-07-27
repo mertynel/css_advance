@@ -12,7 +12,7 @@
         height: 95vh;
     }
 
-    @media (min-resolution: 192dpi)and (min-width: 37.5rem), (min-width: 125rem) {
+    @media only screen and (min-resolution: 192dpi)and (min-width: 37.5rem), only screen and (min-width: 125rem) {
         background-image: linear-gradient(to right,
         rgba($color-secondary-light, 0.8),rgba($color-secondary-dark, 0.8)), url(../img/hero.jpg);
     }
