@@ -186,3 +186,9 @@ body {
   text-align: center;
   color: var(--color-grey-light-4);
   padding: 2.5rem; }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }

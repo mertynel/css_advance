@@ -179,3 +179,17 @@
         padding: 2.5rem;
 
     }
+
+
+    .gallery {
+        display: flex;
+
+        &__item {
+
+        }
+
+        &__photo {
+            width: 100%;
+            display: block;
+        }
+    }
